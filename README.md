@@ -1,6 +1,6 @@
-# Halve
+# Raja Hasnain Anwar
 
-## Preview   
+## Theme Preview
 ![screenshot of Halve](/images/halve-home-image.png)
 
 See a [live version of Halve](https://rhasnainanwar.github.io) hosted on GitHub.
