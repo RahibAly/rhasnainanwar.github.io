@@ -1,9 +1,8 @@
-- title: 100 Algorithms in Python
-  url: https://github.com/rhasnainanwar/100_days_of_algorithms
-  image: ../images/default.jpg
+- title: "100 Algorithms in Python"
+  url: "https://github.com/rhasnainanwar/100_days_of_algorithms"
+  image: "../images/default.jpg"
   completed: false
-
-  - title: PPM Editor in C
-  url: https://github.com/rhasnainanwar/CS110---FoCP/blob/master/Project_4_-_PPMEditor.c
-  image: ../images/ppm.png
+- title: "PPM Editor in C"
+  url: "https://github.com/rhasnainanwar/CS110---FoCP/blob/master/Project_4_-_PPMEditor.c"
+  image: "../images/ppm.png"
   completed: false
