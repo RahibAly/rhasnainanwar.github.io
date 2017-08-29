@@ -1,8 +1,7 @@
 ---
 layout: home
 ---
-# About Theme
+# Raja Hasnain Anwar
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
-
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+CS undergrad; sophomore
+A patriot Pakistani. Interested in knowing <em>how</em> and <em>why</em> something happens. Passionately curious in programming. I'm a codesmith, tech enthusiast, geek and much more....
