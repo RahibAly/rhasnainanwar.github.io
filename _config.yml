@@ -35,7 +35,7 @@ twitter: RHasnainAnwar
 facebook: raja.hasnain.570
 github: rhasnainanwar
 linkedin: rajahasnain570
-#xing:              username
+quora: Raja-Hasnain-Anwar
 #instagram:          username
 #lastfm:            username
 #tumblr:            username
@@ -57,6 +57,9 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+
+plugins:
+  - jekyll-feed
 
 # Exclude list
 include: [_pages]
