@@ -6,32 +6,6 @@ permalink: subscribe.html
 ---
 <html>
 {% include head.html %}
-<style>
-	#contact-form {
-  		padding: 10px;
-		border: 1px solid #4dbe7a;
-		top: 45%;
-	}
-	#submit{
-		 display: inline-block;
-		 background: transparent;
-		 border: 1px solid #4dbe7a;
-		 padding: 2px 10px;
-		
-	}
-	li.contact-li {
-		list-style: none;
-		padding: 0;
-		display: inline-block;
-	}
-
-	.contact-input{
-	  outline:none;
-	  border: none;
-	  border-bottom: 1px solid #4dbe7a;
-	  
-	}
-</style>
     
 <body id="posts" class="inner-post-page">
 
@@ -54,15 +28,13 @@ permalink: subscribe.html
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 	<div id="mc_embed_signup">
-	<form action="//github.us16.list-manage.com/subscribe/post?u=e4880a88dc03f9d0a411aa49d&amp;id=cce8de2da7" method="post" id="mc-embedded-subscribe-form contact-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<form action="//github.us16.list-manage.com/subscribe/post?u=e4880a88dc03f9d0a411aa49d&amp;id=cce8de2da7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<label for="mce-EMAIL">Subscribe to our mailing list</label>
-	<li class="contact-li">
-	<input type="email" value="" name="EMAIL" class="email contact-input" id="mce-EMAIL" placeholder="email address" required>
-	</li>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e4880a88dc03f9d0a411aa49d_cce8de2da7" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe submit" class="button"></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
