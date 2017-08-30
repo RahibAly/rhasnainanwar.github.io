@@ -8,10 +8,9 @@ permalink: subscribe.html
 {% include head.html %}
 <style>
 	#contact-form {
-		  padding: 10px;
-		  border: 1px solid #0a5;
-		
-		  
+  		padding: 10px;
+		border: 1px solid #0a5;
+		vertical-align: middle;
 	}
 	#submit{
 		 display: inline-block;
