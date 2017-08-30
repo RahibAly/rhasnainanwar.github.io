@@ -4,8 +4,6 @@ title: Subscribe to Newsletter
 description: Subscribe to newsletter to get the latest upates of Hasnain's blog right in your email.
 permalink: subscribe.html
 ---
-
-<!DOCTYPE html>
 <html>
 {% include head.html %}
 <body id="posts" class="inner-post-page">
@@ -21,7 +19,7 @@ permalink: subscribe.html
     </div>
 
     <div class="block-right">
-     <form action="https://getsimpleform.com/messages?form_api_token=1b5bbc2f4b50b711d3d0bd6f4452f445" method="post">s
+     <form action="https://getsimpleform.com/messages?form_api_token=1b5bbc2f4b50b711d3d0bd6f4452f445" method="post">
 	  <!-- all your input fields here.... -->
 	  <input type='text' name='test' />
 	  <input type='submit' value='Test form' />
