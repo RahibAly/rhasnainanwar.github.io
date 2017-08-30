@@ -33,11 +33,11 @@
   <!-- Open Graph -->
   <meta property="og:locale" content="{{ site.locale }}">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{% if page.title %}{{ page.title | site.title}}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title  site.title}}{% else %}{{ site.title }}{% endif %}">
   {% if page.excerpt %}
-  <meta name="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+  <meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
   {% else %}
-  <meta name="og:description" content="This is Hasnain's personal blog. Raja Hasnain Anwar is a CS student at National University of Sciences and Technology, Islamabad. He is currently involved in research in Deep Learning and Data Science.">
+  <meta property="og:description" content="This is Hasnain's personal blog. Raja Hasnain Anwar is a CS student at National University of Sciences and Technology, Islamabad. He is currently involved in research in Deep Learning and Data Science.">
   {% endif %}
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
