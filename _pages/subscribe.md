@@ -9,13 +9,13 @@ permalink: subscribe.html
 <style>
 	#contact-form {
   		padding: 10px;
-		border: 1px solid #0a5;
+		border: 1px solid #4dbe7a;
 		vertical-align: middle;
 	}
 	#submit{
 		 display: inline-block;
 		 background: transparent;
-		 border: 1px solid #0a5;
+		 border: 1px solid #4dbe7a;
 		 padding: 2px 10px;
 		
 	}
@@ -28,7 +28,7 @@ permalink: subscribe.html
 	.contact-input{
 	  outline:none;
 	  border: none;
-	  border-bottom: 1px solid #0a5;
+	  border-bottom: 1px solid #4dbe7a;
 	  
 	}
 </style>
