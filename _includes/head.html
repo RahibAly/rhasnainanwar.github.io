@@ -14,7 +14,6 @@
   {% feed_meta %}
   {% endif %}
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-  <meta property="article:publisher" content="http://facebook.com/raja.hasnain.570" />
   <meta property="article:author" content="http://facebook.com/raja.hasnain.570" />
   <!-- Twitter Cards -->
   {% if page.image %}{% capture image %}{{ page.image }}{% endcapture %}{% unless image contains 'http://' or image contains 'https://' %}{% capture image %}{{ site.url }}/{{ image }}{% endcapture %}{% endunless %}
