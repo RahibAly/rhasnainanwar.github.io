@@ -10,7 +10,7 @@ permalink: subscribe.html
 	#contact-form {
   		padding: 10px;
 		border: 1px solid #4dbe7a;
-		vertical-align: middle;
+		top: 45%;
 	}
 	#submit{
 		 display: inline-block;
