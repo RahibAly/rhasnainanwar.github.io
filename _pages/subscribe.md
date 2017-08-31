@@ -59,7 +59,7 @@ permalink: subscribe.html
 	</td>
 	</tr>
 </table>
-<section>
+</section>
 <!--End mc_embed_signup-->
     </div>
     {% include scripts.html %}
