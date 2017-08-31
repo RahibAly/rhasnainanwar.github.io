@@ -38,8 +38,8 @@ permalink: subscribe.html
 		font-size: 95%;
 	}
 	.center {
-		margin-left: auto;
-		margin-right: auto;
+		mar
+		margin: 20px auto;
 		width: inherit;
 		text-align: center;
 	}
