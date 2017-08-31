@@ -10,7 +10,8 @@ table {
 td {
 	text-align: center !important;
     padding-bottom: 20px;
-    width: 50%
+    width: 50%;
+    font-size: 95%;
 }
 </style>
 NUST CS undergrad; sophomore<br>
