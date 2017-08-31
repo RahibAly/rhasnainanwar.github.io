@@ -38,7 +38,10 @@ permalink: subscribe.html
 	font-size: 95%;
 	text-align: center !important;
 }
-
+section {
+	width: 70%;
+	margin: 0 auto;
+}
 </style>
 <section>
 <div id="mc_embed_signup" >
