@@ -67,7 +67,7 @@ permalink: subscribe.html
 			<a class="social-btn" href="http://quora.com/profile/Raja-Hasnain-Anwar" target="_blank"><i class="fa fa-quora"> Read More</i></a>
 		</td>
 		<td>
-			<a class="social-btn" href="/subscribe.html"><i class="fa fa-paper-plane"> Subscribe</i></a>
+			<a class="social-btn" href="/posts.html"><i class="fa fa-clipboard"> Posts</i></a>
 		</td>
 	</tr>
 </table>
