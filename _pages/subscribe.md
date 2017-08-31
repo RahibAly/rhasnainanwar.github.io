@@ -30,18 +30,18 @@ permalink: subscribe.html
 	.about {
 	border: none;
 	width: 100%;
-}
-.about td {
-    padding-bottom: 20px;
-    text-align: center !important;
-}
-.about tr {
-	font-size: 95%;
-}
-section {
-	width: 70%;
-	margin: 0 auto;
-}
+	}
+	.about td {
+		padding-bottom: 20px;
+		text-align: center !important;
+	}
+	.about tr {
+		font-size: 95%;
+	}
+	section {
+		width: 70%;
+		margin: 0 auto;
+	}
 </style>
 <section>
 <!-- Begin MailChimp Signup Form -->
