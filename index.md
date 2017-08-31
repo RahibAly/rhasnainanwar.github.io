@@ -16,7 +16,7 @@ I'm interested in knowing <i>how</i> and <i>why</i> something happens. Passionat
 <table>
 	<tr>
 	<td>
-	<a class="social-btn" href="http://quora.com/user/Raja-Hasnain-Anwar" target="_blank" rel="noopener noreferrer">
+	<a class="social-btn" href="http://quora.com/profile/Raja-Hasnain-Anwar" target="_blank" rel="noopener noreferrer">
 	<i class="fa fa-quora fa-lg"> Enter my world!</i>
 	</a>
 	</td>
