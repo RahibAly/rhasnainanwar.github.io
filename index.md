@@ -9,6 +9,8 @@ table {
 }
 tr {
 	text-align: center;
+    padding-bottom: 20px;
+    width: 50%
 }
 </style>
 NUST CS undergrad; sophomore<br>
