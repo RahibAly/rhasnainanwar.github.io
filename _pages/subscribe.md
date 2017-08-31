@@ -75,8 +75,6 @@ section {
 	</tr>
 </table>
 </section>
-<!--End mc_embed_signup-->
-    </div>
     {% include scripts.html %}
     {% include overlay.html %}
 </body>
