@@ -11,6 +11,8 @@ td {
 	text-align: center !important;
     padding-bottom: 20px;
     width: 50%;
+}
+tr {
     font-size: 95%;
 }
 </style>
