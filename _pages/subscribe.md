@@ -21,14 +21,14 @@ permalink: subscribe.html
 
 <div class="block-right">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; margin: 10px auto;}
 	.button {
 		background-color: #72cc96;
 	}
 	.about {
 		border: none;
-		width: 80%;
-		margin: 10px;
+		width: 70%;
+		margin: 10px auto;
 	}
 	.about td {
 		padding-bottom: 15px;
