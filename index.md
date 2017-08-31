@@ -10,11 +10,11 @@ I'm interested in knowing <i>how</i> and <i>why</i> something happens. Passionat
 	width: 100%;
 }
 .about td {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    text-align: center !important;
 }
 .about tr {
 	font-size: 95%;
-	text-align: center !important;
 }
 </style>
 <table class="about">

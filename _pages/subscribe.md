@@ -32,8 +32,8 @@ permalink: subscribe.html
 	width: 100%;
 	}
 	.about td {
-		padding-bottom: 20px;
-		text-align: center !important;
+		padding-bottom: 15px;
+    text-align: center !important;
 	}
 	.about tr {
 		font-size: 95%;
