@@ -19,7 +19,7 @@ I'm interested in knowing <i>how</i> and <i>why</i> something happens. Passionat
 	<tr>
 	<td>
 	<a class="social-btn" href="/files/resume.pdf" target="_blank">
-	<i class="fa fa-id-badge"> Read More</i>
+	<i class="fa fa-id-badge"> Résumé</i>
 	</a>
 	</td>
 	<td>
