@@ -33,10 +33,10 @@ permalink: subscribe.html
 }
 .about td {
     padding-bottom: 20px;
+    text-align: center !important;
 }
 .about tr {
 	font-size: 95%;
-	text-align: center !important;
 }
 section {
 	width: 70%;
