@@ -5,7 +5,7 @@ layout: home
 <style>
 table {
 	border: none;
-	width: 80%;
+	width: 90%;
 }
 tr {
 	text-align: center;
