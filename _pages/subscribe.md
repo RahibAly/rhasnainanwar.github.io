@@ -28,8 +28,9 @@ permalink: subscribe.html
 		background-color: #72cc96;
 	}
 </style>
-	<div id="mc_embed_signup" >
-	<form action="//github.us16.list-manage.com/subscribe/post?u=e4880a88dc03f9d0a411aa49d&amp;id=cce8de2da7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<section style="width:70%;">
+<div id="mc_embed_signup" >
+<form action="//github.us16.list-manage.com/subscribe/post?u=e4880a88dc03f9d0a411aa49d&amp;id=cce8de2da7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<label for="mce-EMAIL">Subscribe to my mailing list</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
@@ -58,6 +59,7 @@ permalink: subscribe.html
 	</td>
 	</tr>
 </table>
+<section>
 <!--End mc_embed_signup-->
     </div>
     {% include scripts.html %}
