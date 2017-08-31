@@ -3,6 +3,6 @@
   image: ../images/ppm.png
   completed: true
 - title: 100 Algorithms in Python
-  url: https://github.com/rhasnainanwar/100_days_of_algorithms
+  url: https://rhasnainanwar.github.io//tags#100 algorithms
   image: ../images/default.jpg
-  completed: false
+  completed: true
