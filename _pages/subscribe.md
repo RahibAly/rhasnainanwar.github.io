@@ -27,17 +27,6 @@ permalink: subscribe.html
 	.button {
 		background-color: #72cc96;
 	}
-	table {
-	border: none;
-	width: 100%;
-}
-td {
-	text-align: center !important;
-    padding-bottom: 20px;
-}
-tr {
-	font-size: 95%;
-}
 </style>
 	<div id="mc_embed_signup" >
 	<form action="//github.us16.list-manage.com/subscribe/post?u=e4880a88dc03f9d0a411aa49d&amp;id=cce8de2da7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -50,7 +39,7 @@ tr {
     </div>
 </form>
 </div>
-<table>
+<table class="about">
 	<tr>
 	<td>
 	<a class="social-btn" href="/files/resume.pdf" target="_blank">
