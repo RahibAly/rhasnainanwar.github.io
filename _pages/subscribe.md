@@ -27,8 +27,20 @@ permalink: subscribe.html
 	.button {
 		background-color: #72cc96;
 	}
+	.about {
+	border: none;
+	width: 100%;
+}
+.about td {
+    padding-bottom: 20px;
+}
+.about tr {
+	font-size: 95%;
+	text-align: center !important;
+}
+
 </style>
-<section style="width:70%;">
+<section>
 <div id="mc_embed_signup" >
 <form action="//github.us16.list-manage.com/subscribe/post?u=e4880a88dc03f9d0a411aa49d&amp;id=cce8de2da7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
