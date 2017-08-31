@@ -38,7 +38,6 @@ permalink: subscribe.html
 		font-size: 95%;
 	}
 	.center {
-		mar
 		margin: 20px auto;
 		width: inherit;
 		text-align: center;
