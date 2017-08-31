@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Demo post
-description: Subscribe to newsletter to get the latest upates of Hasnain's blog right in your email.
-permalink: posts/first.html
+except: This is a demo post.
+tags: 
+  - demo
+  - post
 ---
 ![GitHub Logo](/images/life-wallpaper.jpg)
 This is probably one of the deepest questions man can ask and one of the greatest mysteries facing him.
