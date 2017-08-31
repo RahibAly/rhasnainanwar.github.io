@@ -4,7 +4,8 @@ layout: home
 # About
 <style>
 table {
-	border: none;	
+	border: none;
+	width: 80%;
 }
 tr {
 	text-align: center;
@@ -16,12 +17,12 @@ I'm interested in knowing <i>how</i> and <i>why</i> something happens. Passionat
 	<tr>
 	<td>
 	<a class="social-btn" href="http://quora.com/user/Raja-Hasnain-Anwar" target="_blank" rel="noopener noreferrer">
-	<i class="fa fa-quora"> Enter my world!</i>
+	<i class="fa fa-quora fa-lg"> Enter my world!</i>
 	</a>
 	</td>
 	<td>
 	<a class="social-btn" href="/subscribe.html" target="_blank" rel="noopener noreferrer">
-	<i class="fa fa-telegram"> Subscribe</i>
+	<i class="fa fa-telegram fa-lg"> Subscribe</i>
 	</a>
 	</td>
 	</tr>
