@@ -19,7 +19,7 @@ permalink: subscribe.html
 	</div>
     </div>
 
-    <div class="block-right">
+<div class="block-right">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 	.button {
@@ -37,7 +37,6 @@ permalink: subscribe.html
 		font-size: 95%;
 	}
 </style>
-<
 <table class="about">
 	<tr>
 	<td>
@@ -57,6 +56,7 @@ permalink: subscribe.html
 	</td>
 	</tr>
 </table>
+</div>
     {% include scripts.html %}
     {% include overlay.html %}
 </body>
