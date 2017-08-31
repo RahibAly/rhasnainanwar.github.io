@@ -7,8 +7,8 @@ table {
 	border: none;
 	width: 90%;
 }
-tr {
-	text-align: center;
+td {
+	text-align: center !important;
     padding-bottom: 20px;
     width: 50%
 }
