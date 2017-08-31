@@ -15,11 +15,14 @@ The setting of the original puzzle game involves disks and three stands to stack
 3. No disk may be placed on top of a smaller disk.
 
 In terms of complexity, for $n$ disks, we have to make $2^{n} - 1$ movements. So, if we have 4 disks, we have to make 15 movements to achieve the required formation.<br />
-{% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %} some stuff <br />
-This animation depicts how this puzzle game on. <br />
-![hanoi-tower](../images/tower_of_hanoi.gif){: .align-center}
+{% capture fig_img %}
+![Tower of Hanoi Animated](../images/tower_of_hanoi.gif)
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Animated representation of Tower of Hanoi puzzle.</figcaption>
+</figure>
 ### Code
 Now, to solve this problem programmatically, one has to see the operations it involves. Obviously, only disks are moved over and over again, hence, one can say that movement of disk is done _recursively_. The best way to solve a problem this complex, is to use recursion. <br />
 The code given below moves the disks recursively and prints out the movement of the top disk: `from` to `to` while the stands are named *right*, *left*, and *middle*.<br />
