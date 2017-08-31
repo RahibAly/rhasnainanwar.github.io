@@ -27,11 +27,22 @@ permalink: subscribe.html
 	.button {
 		background-color: #72cc96;
 	}
+	table {
+	border: none;
+	width: 100%;
+}
+td {
+	text-align: center !important;
+    padding-bottom: 20px;
+}
+tr {
+	font-size: 95%;
+}
 </style>
 	<div id="mc_embed_signup" >
 	<form action="//github.us16.list-manage.com/subscribe/post?u=e4880a88dc03f9d0a411aa49d&amp;id=cce8de2da7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+	<label for="mce-EMAIL">Subscribe to my mailing list</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e4880a88dc03f9d0a411aa49d_cce8de2da7" tabindex="-1" value=""></div>
@@ -39,7 +50,25 @@ permalink: subscribe.html
     </div>
 </form>
 </div>
-
+<table>
+	<tr>
+	<td>
+	<a class="social-btn" href="/files/resume.pdf" target="_blank">
+	<i class="fa fa-id-badge"> Résumé</i>
+	</a>
+	</td>
+	<td>
+	<a class="social-btn" href="http://quora.com/profile/Raja-Hasnain-Anwar" target="_blank">
+	<i class="fa fa-quora"> Read More</i>
+	</a>
+	</td>
+	<td>
+	<a class="social-btn" href="/subscribe.html">
+	<i class="fa fa-paper-plane"> Subscribe</i>
+	</a>
+	</td>
+	</tr>
+</table>
 <!--End mc_embed_signup-->
     </div>
     {% include scripts.html %}
