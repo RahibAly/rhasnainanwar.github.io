@@ -38,12 +38,7 @@ permalink: subscribe.html
 	.about tr {
 		font-size: 95%;
 	}
-	section {
-		width: 70%;
-		margin: 0 auto;
-	}
 </style>
-<section>
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 <div id="mc_embed_signup">
@@ -78,7 +73,6 @@ permalink: subscribe.html
 	</td>
 	</tr>
 </table>
-</section>
     {% include scripts.html %}
     {% include overlay.html %}
 </body>
