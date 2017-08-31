@@ -28,7 +28,7 @@ permalink: subscribe.html
 	.about {
 		border: none;
 		width: 70%;
-		margin: 10px auto;
+		margin: 20px auto;
 	}
 	.about td {
 		padding-bottom: 15px;
@@ -37,8 +37,13 @@ permalink: subscribe.html
 	.about tr {
 		font-size: 95%;
 	}
+	.center {
+		margin: auto;
+		text-align: center;
+	}
 </style>
 <!-- Begin MailChimp Signup Form -->
+<div class="center">
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <div id="mc_embed_signup">
 <form action="//github.us16.list-manage.com/subscribe/post?u=e4880a88dc03f9d0a411aa49d&amp;id=a78a932e57" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -51,7 +56,7 @@ permalink: subscribe.html
     </div>
 </form>
 </div>
-
+</div>
 <!--End mc_embed_signup-->
 <table class="about">
 	<tr>
