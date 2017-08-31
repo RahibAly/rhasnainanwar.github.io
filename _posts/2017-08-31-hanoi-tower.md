@@ -2,6 +2,7 @@
 layout: post
 title: "Tower of Hanoi"
 excerpt: "Tower of Hanoi is a mathematical puzzle game. It is famous for being used as a challenge in coding problems."
+image: ../images/tower_of_hanoi.gif
 tags: 
   - 100 algorithms
   - python
@@ -18,12 +19,12 @@ This animation depicts how this puzzle game on. <br />
 ![hanoi-tower](../images/tower_of_hanoi.gif){: .align-center}
 ### Code
 Now, to solve this problem programmatically, one has to see the operations it involves. Obviously, only disks are moved over and over again, hence, one can say that movement of disk is done _recursively_. The best way to solve a problem this complex, is to use recursion. <br />
-The code given below moves the disks recursively and prints out the movement of the top disk: `from` to `to`.<br />
+The code given below moves the disks recursively and prints out the movement of the top disk: `from` to `to` while the stands are named *right*, *left*, and *middle*.<br />
 ```python
-	def hanoi(height, fro='left', to='right', through='middle'):
-        if height:
-                hanoi(height - 1, fro, through, to )
-                print ('%-7s => %s' % (fro, to))
-                hanoi(height -1, through, to, fro)
+def hanoi(height, fro='left', to='right', through='middle'):
+    if height:
+            hanoi(height - 1, fro, through, to )
+            print ('%-7s => %s' % (fro, to))
+            hanoi(height -1, through, to, fro)
 ```
 See some example runs [here](https://github.com/rhasnainanwar/100_days_of_algorithms/blob/master/Day_01_-_Hanoi_Tower.ipynb).
