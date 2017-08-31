@@ -5,12 +5,14 @@ layout: home
 <style>
 table {
 	border: none;
-	width: 90%;
+	width: 100%;
 }
 td {
 	text-align: center !important;
     padding-bottom: 20px;
-    /*width: 50%;*/
+}
+tr {
+	font-size: 95%;
 }
 </style>
 NUST CS undergrad; sophomore<br>
