@@ -38,14 +38,15 @@ layout: compress
         {{ content }}
         <style type="text/css">
         	.rect {
-			    border-top: 3px solid #333;
-			    border-bottom: 3px solid #333;
-			    padding-top: 15px;
+			    border-top: 2px solid #999;
+			    border-bottom: 2px solid #999;
+			    padding-top: 10px;
+			    padding-bottom: 10px;
 			    margin:0 auto;
 			}
 
 			.rel {
-			    width: 200px;
+			    width: 50%;
 			    display: inline-block;
 			    padding: 5px;
 			    opacity: 0.8;
@@ -80,7 +81,7 @@ layout: compress
 	          <a href="{{ site.baseurl }}{{ post.url }}">
 	              <div class="rel">
 	                  <h5>{{ post.title }}</h5>
-	                  <img width="100%" src="{{post.image}}">
+	                  <img width="90%" src="{{post.image}}">
 	              </div>
 	          </a>
 
