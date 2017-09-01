@@ -40,22 +40,28 @@ layout: compress
         	.rect {
 			    border-top: 2px solid #999;
 			    border-bottom: 2px solid #999;
-			    padding-top: 10px;
 			    padding-bottom: 10px;
 			    margin:0 auto;
 			}
 
+			.rect a {
+				border: none !important;
+			}
 			.rel {
-			    width: 50%;
+			    width: 49%;
 			    display: inline-block;
-			    padding: 5px;
+			    padding: 2px;
 			    opacity: 0.8;
 			}
 
 			.rel:hover {
 			     opacity: 1;    
 			}
+			#related {
+				color: #72cc96;
+			}
         </style>
+        <h2 id="related">You may also like...</h2>
         <div class="rect">
 		  {% assign maxRelated = 2 %}
 		  {% assign minCommonTags =  2 %}
