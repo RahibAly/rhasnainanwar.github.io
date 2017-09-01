@@ -5,7 +5,9 @@
     position: relative;
   }
 }
-
+em {
+  font-style: italic;
+}
 .block-right {
   float: right;
   overflow-y: auto;
