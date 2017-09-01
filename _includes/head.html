@@ -66,6 +66,30 @@
   {% else %}
   <style type="text/css">
     #posts.inner-post-page .block-left {background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ site.url }}/{{ site.background.default-post }}) no-repeat;background-size: cover;}
+    /*  Scrollbar */
+    body::-webkit-scrollbar {
+      width: 0.5em;
+    }
+    body::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: rgba(200, 200, 200, 0.1);
+      border: 1px solid #ccc;
+    }
+
+    body::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: linear-gradient(left, #fff, #999);
+      border: 1px solid #aaa;
+    }
+
+    body::-webkit-scrollbar-thumb:hover {
+      background: #bbb;
+    }
+
+    body::-webkit-scrollbar-thumb:active {
+      background: linear-gradient(left, #22ADD4, #1E98BA);
+}
+
   </style>
   {% endif %}
   <!-- Left Block Images for Home and Pages -->
