@@ -5,7 +5,6 @@ See a [live version of Halve](https://rhasnainanwar.github.io) hosted on GitHub.
 
 # Credits
 - Original Work: [Vangelis Tzortzis](https://github.com/srekoble)
-- Sample Posts and some code examples: [Michael Rose](https://github.com/mmistakes/)
 - Images: [pixabay](https://pixabay.com/)
 
 ### Others
