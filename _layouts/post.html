@@ -36,12 +36,15 @@ layout: compress
       <div class="inner-post content">
         <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
         {{ content }}
-        {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
-        <h2>Related: 
-          <a href="{{ site.url }}{{ site.posts[random].url }}" class="post-title">
-            <span>{{ site.posts[random].title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-          </a>
-        </h2>
+        <script type="text/javascript">
+          do{
+            var random_post = selectFruit[Math.floor(Math.random() * 4)];
+          } while( {{random_post.title}} !== {{ post.title }})
+          document.getElementById("related").innerHTML='<h2>Related:<a href="{{ site.url }}{{ '+random_post+'.url }}" class="post-title"><span>{{'+random_post+'.title | markdownify | remove: "<p>" | remove: "</p>" }}</span></a></h2>';
+        </script>
+        <div id="related">
+          
+        </div>
         <br>
         {% include share.html %}
         {% include page-pagination.html %}
