@@ -14,7 +14,7 @@ The setting of the original puzzle game involves disks and three stands to stack
 2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack.
 3. No disk may be placed on top of a smaller disk.
 <script type="text/javascript" src="http://latex.codecogs.com/latexit.js">LatexIT.add('span',true);</script>
-In terms of complexity, for <span>$n$</span> disks, we have to make <span>$2^{n} - 1$</span> movements. So, if we have 4 disks, we have to make 15 movements to achieve the required formation.<br />
+In terms of complexity, for <span lang="latex">$n$</span> disks, we have to make <span lang="latex">$2^{n} - 1$</span> movements. So, if we have 4 disks, we have to make 15 movements to achieve the required formation.<br />
 {% capture fig_img %}
 ![Tower of Hanoi Animated](../images/tower_of_hanoi.gif)
 {% endcapture %}
