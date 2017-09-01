@@ -36,36 +36,7 @@ layout: compress
       <div class="inner-post content">
         <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
         {{ content }}
-        <style type="text/css">
-        	.rect {
-			    border-top: 2px solid #999;
-			    border-bottom: 2px solid #999;
-			    padding-bottom: 10px;
-			    margin:0 auto;
-			}
-
-			.rect a {
-				border: none !important;
-			}
-			.rel {
-			    width: 49%;
-			    display: inline-block;
-			    padding: 2px;
-			    opacity: 0.8;
-			}
-
-			.rel:hover {
-			     opacity: 1;    
-			}
-			#related {
-				color: #72cc96;
-			}
-			#related hr{
-			    width: 50%;
-			    border-bottom: 1px solid #ccc;
-			}
-        </style>
-        <h3 id="related">You may also like... <hr></h3>
+        <h3 id="relatedpost"><hr>You may also like...</h3>
         <div class="rect">
 		  {% assign maxRelated = 2 %}
 		  {% assign minCommonTags =  2 %}
