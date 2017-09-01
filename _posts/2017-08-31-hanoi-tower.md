@@ -24,8 +24,8 @@ In terms of complexity, for ```n``` disks, we have to make ```2<sup>n</sup> - 1`
   <figcaption>Animated representation of Tower of Hanoi puzzle.</figcaption>
 </figure>
 ## Code
-Now, to solve this problem programmatically, one has to see the operations it involves. Obviously, only disks are moved over and over again, hence, one can say that movement of disk is done _recursively_. The best way to solve a problem this complex, is to use recursion. <br />
-The code given below moves the disks recursively and prints out the movement of the top disk: `from` to `to` while the stands are named *right*, *left*, and *middle*.<br />
+Now, to solve this problem programmatically, one has to see the operations it involves. Obviously, only disks are moved over and over again, hence, one can say that movement of disk is done <em>recursively</em>. The best way to solve a problem this complex, is to use recursion. <br />
+The code given below moves the disks recursively and prints out the movement of the top disk: `from` to `to` while the stands are named <b>right</b>, <b>left</b>, and <b>middle</b>.<br />
 ```python
 def hanoi(height, fro='left', to='right', through='middle'):
     if height:
