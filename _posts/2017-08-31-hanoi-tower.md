@@ -7,7 +7,6 @@ tags:
   - 100 algorithms
   - python
 ---
-<script type="text/javascript" src="../assets/js/latexit.js">LatexIT.add('span',true);</script>
 # Tower of Hanoi
 Tower of Hanoi is widely used as a brain teaser in algorithmic coding problems. It is actually a mathematical puzzle game. Read more about Tower of Hanoi [here](https://en.wikipedia.org/wiki/Tower_of_Hanoi).<br />
 The setting of the original puzzle game involves disks and three stands to stack them on. Disks from one stand are to be shifted to the third stand through the second stand. The movement of disks obeys following simple rules:
@@ -15,7 +14,7 @@ The setting of the original puzzle game involves disks and three stands to stack
 2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack.
 3. No disk may be placed on top of a smaller disk.
 
-In terms of complexity, for <span lang="latex">n</span> disks, we have to make <span lang="latex">2^{n} - 1</span> movements. So, if we have 4 disks, we have to make 15 movements to achieve the required formation.<br />
+In terms of complexity, for `n` disks, we have to make `2`<sup>`n`</sup>` - 1` movements. So, if we have 4 disks, we have to make 15 movements to achieve the required formation.<br />
 {% capture fig_img %}
 ![Tower of Hanoi Animated](../images/tower_of_hanoi.gif)
 {% endcapture %}
