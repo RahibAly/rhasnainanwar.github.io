@@ -8,7 +8,7 @@ tags:
   - python
 ---
 # Tower of Hanoi
-Tower of Hanoi is widely used as a brain teaser in algorithmic coding problems. It is actually a mathematical puzzle game. Read more about Tower of Hanoi [here](https://en.wikipedia.org/wiki/Tower_of_Hanoi).<br />
+Tower of Hanoi is widely used as a brain teaser in algorithmic coding problems. It is actually a mathematical puzzle game. Read more about Tower of Hanoi [here](https://en.wikipedia.org/wiki/Tower_of_Hanoi){:target="_blank"}.<br />
 The setting of the original puzzle game involves disks and three stands to stack them on. Disks from one stand are to be shifted to the third stand through the second stand. The movement of disks obeys following simple rules:
 1. Only one disk can be moved at a time.
 2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack.
@@ -33,4 +33,4 @@ def hanoi(height, fro='left', to='right', through='middle'):
             print ('%-7s => %s' % (fro, to))
             hanoi(height -1, through, to, fro)
 ```
-See some example runs [here](https://github.com/rhasnainanwar/100_days_of_algorithms/blob/master/Day_01_-_Hanoi_Tower.ipynb).
+See some example runs [here](https://github.com/rhasnainanwar/100_days_of_algorithms/blob/master/Algo_01_-_Hanoi_Tower.ipynb).
