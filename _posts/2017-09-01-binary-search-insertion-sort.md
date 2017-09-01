@@ -6,6 +6,7 @@ image: https://68.media.tumblr.com/74a17b1a19965b260e039bd37524f48e/tumblr_oj7gn
 tags: 
   - 100 algorithms
   - python
+comments: true
 ---
 
 # Binary Search

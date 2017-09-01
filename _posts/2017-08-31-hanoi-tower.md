@@ -6,6 +6,7 @@ image: ../images/tower_of_hanoi.gif
 tags: 
   - 100 algorithms
   - python
+comments: true
 ---
 # Tower of Hanoi
 Tower of Hanoi is widely used as a brain teaser in algorithmic coding problems. It is actually a mathematical puzzle game. Read more about Tower of Hanoi [here](https://en.wikipedia.org/wiki/Tower_of_Hanoi){:target="_blank"}.<br />
