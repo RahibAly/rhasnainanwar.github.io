@@ -28,7 +28,7 @@ layout: compress
               <a href="{{ site.url }}{{ post.url }}" class="post-title">
                 <span>{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
               </a>
-              <span class="date">{{ post.date | date: '%d %b %Y' }}</span>
+              <span class="date">{{ post.date | date: '%d %b %Y' }} . <a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.url}}"></a></span>
             </h2>
             <p>{{ post.excerpt | strip_html | truncatewords:10 }}</p>
             <ul class="tags">
@@ -45,5 +45,6 @@ layout: compress
     </div>
     {% include overlay.html %}
     {% include scripts.html %}
+    <script id="dsq-count-scr" src="//rhasnain.disqus.com/count.js" async></script>
   </body>
 </html>
