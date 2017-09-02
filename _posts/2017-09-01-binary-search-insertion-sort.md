@@ -2,7 +2,7 @@
 layout: post
 title: "Algo #2: Binary Search with Insertion Sort"
 excerpt: "Binary Search is one of the most popular searching algorithms. It is used with array data structure and has best case time complexity of O(log n)."
-image: https://68.media.tumblr.com/74a17b1a19965b260e039bd37524f48e/tumblr_oj7gnqorRl1w0dccho1_1280.gif
+image: https://cdn.pixabay.com/photo/2015/09/16/09/48/programming-942487_960_720.jpg
 tags: 
   - 100 algorithms
   - python

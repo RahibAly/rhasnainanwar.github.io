@@ -2,7 +2,7 @@
 layout: post
 title: "Algo #3: Selection Sort"
 excerpt: "Selection Sort is a simple sorting algorithm which iterates over a subset of list."
-image: https://68.media.tumblr.com/331e7265003575cb04f06b3f20346e0c/tumblr_oj7gjfhBsr1w0dccho1_500.gif
+image: https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/IMZP3JUC0G.jpg
 tags: 
   - 100 algorithms
   - python
