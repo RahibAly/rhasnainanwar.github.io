@@ -1,4 +1,4 @@
-{% assign words = content | number_of_words %}
+{% assign words = include.data | number_of_words %}
 {% if words < 300 %}
 1 min
 {% else %}
