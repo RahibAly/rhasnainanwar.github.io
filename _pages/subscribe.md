@@ -2,6 +2,7 @@
 layout: compress
 title: Subscribe to Newsletter
 description: Subscribe to newsletter to get the latest upates of Hasnain's blog right in your email.
+sitemap: true
 permalink: subscribe.html
 ---
 <html>

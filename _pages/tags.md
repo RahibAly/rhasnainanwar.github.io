@@ -2,6 +2,7 @@
 layout: page
 title: Tag Archive
 description: "An archive of posts sorted by tag."
+sitemap: true
 permalink: /tags.html
 ---
 
