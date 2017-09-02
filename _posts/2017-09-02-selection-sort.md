@@ -69,7 +69,7 @@ Front = 8, no swap <br />
 `[2, 3, 4, 8, | 9]`
 <br />
 n = 4 <br />
-Now that only one one is left, we can assume it to be sorted automatically.
+Now that only one element is left, we can assume it to be sorted automatically.
 <br />
 `[2, 3, 4, 8, 9]`
 <br />
