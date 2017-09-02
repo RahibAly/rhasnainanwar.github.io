@@ -29,7 +29,7 @@ layout: compress
               <a href="{{ site.url }}{{ post.url }}" class="post-title">
                 <span>{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
               </a>
-              <span class="date">{{ post.date | date: '%d %b %Y' }} . {% include readtime.html data=post.content %} . <a href="https://rhasnainanwar.github.io{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.url}}"></a></span>
+              <span class="date">{{ post.date | date: '%d %b %Y' }} &#9702; {% include readtime.html data=post.content %} {{% if post.comments %}} &#9702; <a href="https://rhasnainanwar.github.io{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.url}}"></a> {{% endif %}}</span>
             </h2>
             <p>{{ post.excerpt | strip_html | truncatewords:15 }}</p>
             <ul class="tags">
