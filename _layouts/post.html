@@ -5,6 +5,9 @@ layout: compress
 <!DOCTYPE html>
 <html>
 {% include head.html %}
+{% if page.comments %}
+<script id="dsq-count-scr" src="//rhasnain.disqus.com/count.js" async></script>
+{% endif %}
 <body id="posts" class="inner-post-page">
 
     <div class="block-left">
@@ -85,7 +88,6 @@ layout: compress
         {% include share.html %}
         {% include page-pagination.html %}
         {% if page.comments %}
-        <script id="dsq-count-scr" src="//rhasnain.disqus.com/count.js" async></script>
         <h3 id="relatedpost"><hr></h3>
 	    <div id="disqus_thread"></div>
 		<script>
