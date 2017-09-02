@@ -10,4 +10,8 @@ comments: true
 ---
 
 # Selection Sort
-Sorting the data is very import for its indexing and [searching](/2017-09-01-binary-search-insertion-sort/ "As discussed in previous post"). A lot of sorting algorithms have been developed so far to meet the current needs of speed. One such algorithm that appeared initially for addressing the sorting problem is **Selection Sort**.
+Sorting the data is very import for its indexing and [searching](/binary-search-insertion-sort/ "As discussed in previous post"). A lot of sorting algorithms have been developed so far to meet the current needs of speed. One such algorithm that appeared initially for addressing the sorting problem is **Selection Sort**. <br />
+Like [Insertion Sort](/binary-search-insertion-sort/#sorting), Selection Sort tends to be very slow. Both have time _Big-O_ of `O(n`<sup>2</sup>`)`, where `n` is the number of entries to be sorted. Both of these algorithms require a lot of computation in comparisons, and in swapping. <br />
+
+## Working
+Selection Sort
