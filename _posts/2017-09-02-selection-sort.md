@@ -14,4 +14,4 @@ Sorting the data is very import for its indexing and [searching](/binary-search-
 Like [Insertion Sort](/binary-search-insertion-sort/#sorting), Selection Sort tends to be very slow. Both have time _Big-O_ of `O(n`<sup>2</sup>`)`, where `n` is the number of entries to be sorted. Both of these algorithms require a lot of computation in comparisons, and in swapping. <br />
 
 ## Working
-Selection Sort
+Selection Sort works on the principle of _comparing and swapping_ for arranging the elements. Unlike Insertion Sort, which compares adjacent entries, Selection Sort finds the smallest or largest values (depending on sorting order) in a subset of the list and moves it to the front of the list. After one element gets the front spot, we can say that this element is `sort`ed. So, this element is _ignored_ for next iteration. In a nutshell, during each iteration the subset is of size `N - n`, where `n` is the number of sorted elements in the list of `N` elements.
