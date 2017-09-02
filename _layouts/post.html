@@ -19,6 +19,7 @@ layout: compress
 			{% else %}
 			{{ words | divided_by:150 }} mins
 			{% endif %} read
+			{% if post.comments %} &#9702; <a href="#disqus_thread" data-disqus-identifier="{{post.url}}"></a>{% endif %}
 			</span>
           <ul class="tags">
             {% for tag in page.tags %}
@@ -84,7 +85,7 @@ layout: compress
         {% include share.html %}
         {% include page-pagination.html %}
         {% if page.comments %}
-        <h3 id="relatedpost"><hr>Comments</h3>
+        <h3 id="relatedpost"><hr></h3>
 	    <div id="disqus_thread"></div>
 		<script>
 		var disqus_config = function () {
