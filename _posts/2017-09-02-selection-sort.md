@@ -26,7 +26,7 @@ Selection Sort works on the principle of _comparing and swapping_ for arranging 
 
 ### Example
 "|"
-: Separates the sorted part (on left) and 
+: Separates the sorted part (on left) and unsorted part (on right)
 
 Say we have a list of 5 values: `[8, 2, 3, 9, 4]`; `N = 5` <br />
 **Step 1:** <br />
