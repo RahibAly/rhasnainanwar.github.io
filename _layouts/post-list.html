@@ -27,7 +27,13 @@ layout: compress
           <li>
             <h2>
               <a href="{{ site.url }}{{ post.url }}" class="post-title">
-                <span>{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+                <span>{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }} &#9702; {% assign words = post.content | number_of_words %}
+                  {% if words < 300 %}
+                  1 min
+                  {% else %}
+                  {{ words | divided_by:150 }} mins
+                  {% endif %} read
+                  </span>
               </a>
               <span class="date">{{ post.date | date: '%d %b %Y' }}</span>
             </h2>
