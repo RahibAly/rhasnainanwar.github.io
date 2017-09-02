@@ -13,13 +13,7 @@ layout: compress
         <div class="post-title-section">
           <div class="section-line">Posts <em>/</em></div>
           <h1 class="section-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-          <span class="readtime">{% assign words = page.content | number_of_words %}
-			{% if words < 300 %}
-			1 min
-			{% else %}
-			{{ words | divided_by:150 }} mins
-			{% endif %} read
-			{% if post.comments %} &#9702; <a href="#disqus_thread" data-disqus-identifier="{{post.url}}"></a>{% endif %}
+          <span class="readtime">{% include readtime.html data=page.content | excerpt |markdownify | remove: "<p>" | remove: "</p>" %} {% if post.comments %} &#9702; <a href="#disqus_thread" data-disqus-identifier="{{post.url}}"></a>{% endif %}
 			</span>
           <ul class="tags">
             {% for tag in page.tags %}
@@ -101,6 +95,7 @@ layout: compress
 		})();
 		</script>
 		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<script id="dsq-count-scr" src="//rhasnain.disqus.com/count.js" async></script>
 		{% endif %}
       </div>
 
