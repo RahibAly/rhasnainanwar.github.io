@@ -26,7 +26,8 @@ Selection Sort works on the principle of _comparing and swapping_ for arranging 
 
 ### Example
 In this example, I'll be sorting data in ascending order. For this, I'll select the smallest value and move it to the front of the subset. <br />
-Alternatively, one can select the largest value and move it to the **back** of the subset. In this case, the list will be sorted from right. Ultimately, both methods yield the same result.
+Alternatively, one can select the largest value and move it to the **back** of the subset. In this case, the list will be sorted from right. Ultimately, both methods yield the same result. <br />
+
 "|"
 : Separates the sorted part (on left) and unsorted part (on right)
 
