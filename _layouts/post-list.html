@@ -5,7 +5,6 @@ layout: compress
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<script id="dsq-count-scr" src="//rhasnain.disqus.com/count.js" async></script>
   <body id="posts">
 
     <div class="block-left">
@@ -35,7 +34,7 @@ layout: compress
                 {% else %}
                 {{ words | divided_by:150 }} mins
                 {% endif %} read
-                {% if post.comments %} &#9702; <a href="{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.url}}"></a> {% endif %}
+                {% if post.comments %}
               </span>
             </h2>
             <p>{{ post.excerpt | strip_html | truncatewords:15 }}</p>
