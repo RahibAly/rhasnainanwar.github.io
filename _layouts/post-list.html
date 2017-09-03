@@ -34,7 +34,6 @@ layout: compress
                 {% else %}
                 {{ words | divided_by:150 }} mins
                 {% endif %} read
-                {% if post.comments %}
               </span>
             </h2>
             <p>{{ post.excerpt | strip_html | truncatewords:15 }}</p>

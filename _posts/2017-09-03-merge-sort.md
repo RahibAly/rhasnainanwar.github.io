@@ -16,3 +16,4 @@ My quest for sorting algorithms has introduced me to an interesting algorithm, M
 Unlike those we have seen so far, this one doesn't require iteration over all the values followed by a series of comparisons and swaps. Merge Sort divides a sorting problem into small sorting problems and then deals with them one-by-one. As all these smaller problems are sorting problems, we can have them solved by following steps over and again. Here, _recursion_ comes in handy.
 
 ## Working
+Merge Sort goes by making groups of data, and then splitting those groups into further groups half their size. This goes on until the number of groups match the number of origin data elements, each group consisting of one distinct value.
