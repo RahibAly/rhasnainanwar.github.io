@@ -23,7 +23,7 @@ Once we hit the ground, merge sort start sorting each group, and combining group
 {% endcapture %}
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Visual demonstration of Selection Sort.</figcaption>
+  <figcaption>Visual demonstration of Merge Sort.</figcaption>
 </figure>
 
 # Code
