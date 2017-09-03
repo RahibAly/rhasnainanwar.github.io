@@ -29,6 +29,7 @@ Once we hit the ground, merge sort start sorting each group, and combining group
 # Code
 Merge Sort algorithm has two parts. One part deals with splitting data and calling on them the second part, sort and merge.<br />
 The function given below merges any two given groups by comparing the heads of both groups and merging them by keeping order. <br />
+
 Important!!!
 : It should be noted that this function does not actually sort the data, it merges two groups by looking at their heads only. The data is sorted by _recursion_ on this part. The smaller groups are already sorted when they are given for merging, and this goes on. It is better understood by an example given in this [notebook](https://github.com/rhasnainanwar/100_days_of_algorithms/blob/master/Algo_04_-_Merge_Sort.ipynb).
 
