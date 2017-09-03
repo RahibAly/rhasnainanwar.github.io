@@ -2,6 +2,7 @@
 layout: post
 title: "Algo #4: Merge Sort"
 excerpt: "Merge Sort works by splitting the data continuously, and sorting only two terms at a time. It has O(n log(n)) time complexity."
+image: ../images/default.jpg
 tags: 
   - 100 algorithms
   - python
