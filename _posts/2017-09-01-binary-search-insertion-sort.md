@@ -76,5 +76,4 @@ Here, `key` is what we are asking Binary Search to look in `values`. `start` and
 </figure>
 
 See the result in [this IPython Notebook](https://github.com/rhasnainanwar/100_days_of_algorithms/blob/master/Algo_02_-_Binary_Search.ipynb).
-
 <small>In case of any errors, open an issue in [100 Algorithms repo](https://github.com/rhasnainanwar/100_days_of_algorithms/issues/new).</small>
