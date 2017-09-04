@@ -14,7 +14,7 @@ We have seen in the [previous post](/merge-sort/ "Merge Sort") that we can divid
 Despite being so simple, Quicksort has average time performance of `O( n log(n) )`.
 
 ## Working
-Quicksort uses _recursion_ to repeated sort parts of the original data list. Quicksort, first, chooses a _key_ or a _pivot_ value. Then, it compares all the values with the key, and decide which values will go to the right and which to the left. The values smaller than the key are placed to the right and other to left. As the _left_ and _right_ groups are made up in the order they are fed into the algorithm, they are not sorted. The algorithm then goes about sorting the left and the right group, this requires a recursive call to Quicksort. This goes on until there's one value left in each group. After that, the `right - key - left` are combined while moving up the hierarchy of recursive calls.
+Quicksort uses _recursion_ to repeatedly sort subsets of the original data list. Quicksort, first, chooses a _key_ or a _pivot_ value. Then, it compares all the values with the key, and decide which values will go to the right and which to the left. The values smaller than the key are placed no the right and other no left half. As the _left_ and _right_ groups are made up in the order they are fed into the algorithm, they are not sorted. The algorithm then goes about sorting the left and the right group, this requires a recursive call to Quicksort. This goes on until there's one value left in each group. After that, the `right - key - left` are combined while moving up the hierarchy of recursive calls.
 
 Key
 : The key or pivot is selected using [Lomuto Partition scheme](https://en.wikipedia.org/wiki/Quicksort#Lomuto_partition_scheme) in which the last element is chosen as pivot. <br />
@@ -49,8 +49,10 @@ def quick_sort( values ):
             right.append(i)
         elif i < pivot:
             left.append(i)
-    '''recursive call sorts the left and right groups. This goes on and on, and the groups get smaller down the hierarchy.
-       This automatically sorts the group without having to compare each value with the rest.'''
+    '''recursive call sorts the left and right groups. This goes on and on,
+       and the groups get smaller down the hierarchy.
+       Recursion automatically sorts the group without having to compare
+       each value with the rest.'''
     return quick_sort(left) + equal + quick_sort(right) 
 ```
 See the result in [this IPython Notebook](https://github.com/rhasnainanwar/100_days_of_algorithms/blob/master/Algo_05_-_Quick_Sort.ipynb).
