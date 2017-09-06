@@ -31,7 +31,7 @@ For Example
 : If x = 6, we'll have 2 at index 5 in holes i.e., `[_, _, _, _, _, 2, _, _, _]`. This means that we have **2 6's** in our list.
 
 After iterating over all the items, we have:<br />
-Indices:`[0, 1, 2, 3, 4, 5, 6, 7, 8]` <br />
+Indices: `[0, 1, 2, 3, 4, 5, 6, 7, 8]` <br />
 Holes = `[1, 0, 0, 1, 1, 2, 0, 0, 1]` <br />
 <br />
 Now, Pigeonhole Sort will visit each hole, and copy the values there to another list. This list will now be sorted. <br />
