@@ -76,6 +76,10 @@ def pigeonsort(values):
             holes[count] -= 1
             values[i] = count + _min
             i += 1
+    # either
+    print values
+    # or
+    return values
 ```
 #### Special
 This method works **iff** the list has continuous and not-repeating values.
