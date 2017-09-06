@@ -8,6 +8,9 @@
 .rect {
   a {
     border: none !important;
+    img:hover {
+    	transition: transform 0.3s ease-in-out;
+    }
   }
 }
 .rel {
