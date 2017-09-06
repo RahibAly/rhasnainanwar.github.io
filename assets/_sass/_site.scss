@@ -8,9 +8,6 @@
 .rect {
   a {
     border: none !important;
-    img:hover {
-    	transition: transform 0.3s ease-in-out;
-    }
   }
 }
 .rel {
@@ -21,7 +18,10 @@
 }
 
 .rel:hover {
-   opacity: 1;    
+   opacity: 1;
+   img {
+    	transition: transform 0.3s ease-in-out;
+    }
 }
 
 #relatedpost {
