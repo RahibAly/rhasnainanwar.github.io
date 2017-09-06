@@ -41,7 +41,7 @@ Sorted = `[1, 4, 5, 6, 6, 9]` <br />
 **Note**
 > As you can see a lot of holes are empty, this algorithm requires a lot of space even for a small but widely spread data.
 
-See the animation to understand who it really works.
+See the animation to understand how it really works.
 {% capture fig_img %}
 ![Pigeonhole Sort Animation](https://68.media.tumblr.com/c1b705f22bbd5ebf72a029e7b8a42630/tumblr_ojd9yhKsuS1w0dccho1_1280.gif)
 {% endcapture %}
