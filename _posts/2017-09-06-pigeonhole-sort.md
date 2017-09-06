@@ -10,6 +10,7 @@ comments: true
 ---
 # Pigeonhole Sort
 As the name implies, this algorithm uses the Pigeonhole Principle to sort items. Although this algorithm is not practically preffered, it strongly demonstrates the wonders of maths. <br />
+
 Pigeonhole Principle
 : In mathematics, the pigeonhole principle states that if n items are put into m containers, with n > m, then at least one container must contain more than one item. <cite>[Wikipedia](https://en.wikipedia.org/wiki/Pigeonhole_principle){:target="_blank"}</cite>
 
@@ -25,15 +26,19 @@ r = `9 - 1` = 8 <br />
 Hence, we have **9 empty holes**, or say holes = `[0, 0, 0, 0, 0, 0, 0, 0, 0]` <br />
 <br />
 The algorithm will now iterate over all the values and mark the index `x - min` of the list `holes`, where `x` is a value from list and `min` is the smallest value.<br />
+
 For Example
 : If x = 6, we'll have 2 at index 5 in holes i.e., `[_, _, _, _, _, 2, _, _, _]`. This means that we have **2 6's** in our list.
 
 After iterating over all the items, we have:<br />
 Indices:`[0, 1, 2, 3, 4, 5, 6, 7, 8]` <br />
 Holes = `[1, 0, 0, 1, 1, 2, 0, 0, 1]` <br />
+<br />
 Now, Pigeonhole Sort will visit each hole, and copy the values there to another list. This list will now be sorted. <br />
+<br/>
 Sorted = `[1, 4, 5, 6, 6, 9]` <br />
-**Note**<br />
+<br/>
+**Note**
 > As you can see a lot of holes are empty, this algorithm requires a lot of space even for a small but widely spread data.
 
 See the animation to understand who it really works.
