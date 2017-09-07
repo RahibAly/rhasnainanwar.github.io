@@ -25,4 +25,4 @@ So, in this post you'll get to know how to get the next permutation in lexicogra
 ### Example
 Consider you have `34521` and you need to find its next permutation. <br />
 **Step 1**<br />
-Find the longest decreasing sequence: `34`**`521`**<br />
+Find the longest decreasing sequence: `34`<b>`521`</b><br />
