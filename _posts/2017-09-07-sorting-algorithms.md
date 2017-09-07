@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sorting Algorithms: Revisited"
-excerpt: "Sorting the data is very important for indexing and searching. A lot of sorting algorithms have been developed so far to meet the current needs of speed."
+excerpt: "Sorting the data is very important for indexing and searching. A lot of sorting algorithms have been developed so far to meet the current needs for speed and efficiency."
 image: ../images/cube-2031511_1280.jpg
 tags: 
   - 100 algorithms
