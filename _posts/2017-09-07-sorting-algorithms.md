@@ -2,7 +2,7 @@
 layout: post
 title: "Sorting Algorithms: Revisited"
 excerpt: "Sorting the data is very important for indexing and searching. A lot of sorting algorithms have been developed so far to meet the current needs of speed."
-image: ../images/pixel-2658014.png
+image: ../images/cube-2031511_1280.jpg
 tags: 
   - 100 algorithms
   - algorithms
@@ -16,12 +16,17 @@ In order to facilitate the students new to Algorithms, I started [100 Algorithms
 * [Selection Sort][2]
 * [Merge Sort][3]
 * [Quick Sort][4]
-* [Pigonhole Sort][5]
+* [Pigeonhole Sort][5]
 
-[1]: /binary-search-insertion-sort
+[1]: /binary-search-insertion-sort/#sorting
 [2]: /selection-sort
 [3]: /merge-sort
 [4]: /quick-sort
 [5]: /pigeonhole-sort
 
-
+## Which one to use?
+**Insertion and Insertion Sort** are pretty straightforward. They iterate over all the items multiple times and moving some items back and forth to get them in order. For this reason, their performance is `O( n`<sup>2</sup>` )`, where `n` is the number of items to sort.<br />
+With `O( n log(n) )` complexity, **Merge and Quick Sort** are clearly the winners here. They both are relatively faster than their siblings. This is all about performance, but I still like _Quick Sort_ more. The reason is that it is easier to implement as compared to its competitor, Merge Sort. With recursion, Merge Sort becomes complex to understand.<br />
+I think **Pigeonhole Sort** is an overkill with its tricky time and space complexity. Although it gives a hint how mathematical principles can be used in such a way, a better similar solution is still at large. <br />
+<br />
+<small>Featured Image: [Pixabay](https://pixabay.com){:target="_blank"}</small>
