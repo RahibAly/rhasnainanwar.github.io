@@ -13,7 +13,8 @@ In Mathematics,
 :  the notion of permutation relates to the act of arranging all the members of a set into some sequence or order, or if the set is already ordered, rearranging (reordering) its elements, a process called **permuting**. <cite>--[Wikipedia](https://en.wikipedia.org/wiki/Permutation){:target="_blank"}</cite>
 
 ## Next Permutation
-Today, I'm taking a trip downstream to introduce you to the amazing world of Mathematics where all that boring Algebra and whatnot is actually useful. The possible arrangements in a permutation are used in assigning telephone numbers, codes, and other amazing things in telecommunication that I don't know about. The importance of this little method of arranging numbers and alphabets can be realized from the fact that C++ has a function `next_permutation` in its standard library.<br />
+Today, I'm taking a trip downstream to introduce you to the amazing world of Mathematics where all that boring Algebra and whatnot is actually useful.<br/>
+I assume that you are familiar with the idea of Permutation. The possible arrangements in a permutation are used in assigning telephone numbers, codes, and other amazing things in telecommunication that I don't know about. The importance of this little method of arranging numbers and alphabets can be realized from the fact that C++ has a function `next_permutation` in its standard library.<br />
 So, in this post you'll get to know how to get the next permutation in lexicographic order using a bunch of loops and variables. First, understand the rules:
 * In the given sequence, find the longest _decreasing sequence_ (left to right)
 * Let the value just before the decreasing sequence be the _pivot_
