@@ -20,9 +20,9 @@ So, in this post you'll get to know how to get the next permutation in lexicogra
 * Now, swap pivot with the largest value from chosen sequence which is _smaller_ than pivot value
 * Invert the chosen sequence while keeping its place and other values unchanged
 
-> If the next permutation is not possible, return false OR the sequences unchanged.
+> If the next permutation is not possible, return false OR the sequence itself, unchanged.
 
 ### Example
 Consider you have `34521` and you need to find its next permutation. <br />
 **Step 1**<br />
-Find the longest decreasing sequence: `34**521**`<br />
+Find the longest decreasing sequence: `34`**`521`**<br />
