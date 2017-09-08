@@ -20,7 +20,8 @@ For Example
 
 with that and more, let's start playing with bits.
 
-**Note:** Keep a pen/pencil and a piece of paper with you as your go further into this post.{: .notice}
+**Note:** Keep a pen/pencil and a piece of paper with you as your go further into this post.
+{: .notice}
 
 ## Bit Operations
 Before going into any details, familiarize yourself with basic bit operations.
