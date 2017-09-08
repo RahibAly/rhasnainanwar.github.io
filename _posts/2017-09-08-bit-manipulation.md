@@ -76,9 +76,9 @@ Given the example above; if you need to find some power of 2, using library func
 # that's it!!
 ```
 
-## << >>
+## Bitwise Shift
 Left and right shift can double and half the given number, respectively. As left shift moves all bits to the left, the cum value is doubled. Similarly, right shift divides the value by 2, python equivalent of `//` operator.
 
-Beware of the possible loss of data because of bit limits.
+**Warning:** Beware of the possible loss of data because of bit limits.
 {: .notice_warning}
 
