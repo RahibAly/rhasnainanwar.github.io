@@ -26,6 +26,11 @@ Bit Operations
 : `&:` performs bitwise **AND** operation<br />
 `|:` performs bitwise **OR** operation<br />
 `~:` inverts the bits of given numbers; bitwise **NOT**<br />
+`^:` performs bitwise **XOR**, exclusive OR<br />
+`<<:` left shift; shifts all the bits to the left by the given amount<br />
+`>>:` right shift; shifts all the bits to the right by the given amount<br />
+Read more: [Python Wiki](https://wiki.python.org/moin/BitwiseOperators){:target="_blank"}
+
 ## No. of Active Bits
 Numbers in binary consist of only 1's and 0's, sometimes it's required to know how many 1's or active bits the number contains. Here's is how to do that:
 ```python
