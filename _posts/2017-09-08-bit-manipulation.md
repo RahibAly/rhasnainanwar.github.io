@@ -10,17 +10,17 @@ tags:
   - python
 comments: true
 ---
-First up, I have to admit that this post is a bit of disappoint for some people. I can feel ya, folks. In my defense, I really wanted to _fix_ this somehow somewhere; because understanding the code at bit level can guarantee better **algorithmic thinking**.
+First up, I have to admit that this post is a bit of disappointment for some people. I can feel ya, folks. In my defense, I really wanted to _fix_ this somehow somewhere; because understanding the code at bit level can guarantee better **algorithmic thinking**.
 
 # Binary in Code
-Computer processes data only in 1's and 0's ... bla.. bla.. you know the story, right. The point is that using binary number system, or at least understanding it, can result it more _cool_ code with efficient performance. As this series is all about algorithms, let me present a bunch of cool _hacks_ (if you will) that can boost the run time of your code.
+Computer processes data only in 1's and 0's ... bla.. bla.. you know the story, right. The point is that using binary number system, or at least understanding it, can result in more _cool_ code with efficient performance. As this series is all about algorithms, let me present a bunch of cool _hacks_ (if you will) that can boost the run time of your code.
 
 For Example
 : We use built-in function for taking higher powers. Most languages have this function `pow()` for this. But using bit operations, you can compute higher powers much faster than the given function.
 
 with that and more, let's start playing with bits.
 
-**Note:** Keep a pen/pencil and a piece of paper with you as your go further into this post.
+**Note:** Keep a pen/pencil and a piece of paper with you while reading this post.
 {: .notice_info}
 
 ## Bit Operations
@@ -77,7 +77,7 @@ Given the example above; if you need to find some power of 2, using library func
 ```
 
 ## Bitwise Shift
-Left and right shift can double and half the given number, respectively. As left shift moves all bits to the left, the cum value is doubled. Similarly, right shift divides the value by 2, python equivalent of `//` operator.
+Left and right shift can double and half the given number, respectively. As left shift moves all bits to the left, the doubled value is returned. Similarly, right shift divides the value by 2, python equivalent of `//` operator.
 
 **Warning:** Beware of the possible loss of data because of bit limits.
 {: .notice_warning}
@@ -100,7 +100,7 @@ def set(N, i):
 ```
 
 ### Conclusion
-You can get the idea how small bitwise expressions can do great things. See the properties of binary numbers and come up with your own expressions (comment them and I'll add them in this post with credit). I haven't included any working example and I want you to do that yourself as explain step-by-step at this can be very hectic and I'm too laazZzzyyy to do that.
+You can get the idea how small bitwise expressions can do great things. See the properties of binary numbers and come up with your own expressions (comment them and I'll add them in this post with credit). I haven't included any working example and I want you to do that yourself as explaining step-by-step at this level can be very hectic and I'm too laazZzzyyy to do that.
 
 See the results in [this IPython Notebook](https://github.com/rhasnainanwar/100_days_of_algorithms/blob/master/Algo_08_-_bit_manipulation.ipynb).
 <small>In case of any errors, open an issue in [100 Algorithms repo](https://github.com/rhasnainanwar/100_days_of_algorithms/issues/new) OR comment below.</small>
