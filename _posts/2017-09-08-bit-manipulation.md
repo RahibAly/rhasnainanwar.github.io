@@ -10,11 +10,30 @@ tags:
   - python
 comments: true
 ---
-First up, I have to admit that this post is a bit of disappoint for some people. I can feel ya, folks. In my defense, I really wanted to _fix_ this somehow somewhere; because understanding the code at bit level can guarantee better _algorithmic thinking_.
+First up, I have to admit that this post is a bit of disappoint for some people. I can feel ya, folks. In my defense, I really wanted to _fix_ this somehow somewhere; because understanding the code at bit level can guarantee better **algorithmic thinking**.
 
 # Binary in Code
 Computer processes data only in 1's and 0's ... bla.. bla.. you know the story, right. The point is that using binary number system, or at least understanding it, can result it more _cool_ code with efficient performance. As this series is all about algorithms, let me present a bunch of cool _hacks_ (if you will) that can boost the run time of your code.
+
 For Example
 : We use built-in function for taking higher powers. Most languages have this function `pow()` for this. But using bit operations, you can compute higher powers much faster than the given function.
 
-with that and some more, let's start playing with bits.
+with that and more, let's start playing with bits.
+## Bit Operations
+Before going into any details, familiarize yourself with basic bit operations.
+
+Bit Operations
+: `&:` performs bitwise **AND** operation<br />
+`|:` performs bitwise **OR** operation<br />
+`~:` inverts the bits of given numbers; bitwise **NOT**<br />
+## No. of Active Bits
+Numbers in binary consist of only 1's and 0's, sometimes it's required to know how many 1's or active bits the number contains. Here's is how to do that:
+```python
+def count( value ):
+    count = 0
+    while value: # until the number is reduced to zero
+        value &= value - 1
+        count += 1
+    return count
+```
+If you grab a pen and paper, work this out and you'll be surprised to see how remarkable it looks in operation.
