@@ -21,7 +21,7 @@ For Example
 with that and more, let's start playing with bits.
 
 **Note:** Keep a pen/pencil and a piece of paper with you as your go further into this post.
-{: .notice}
+{: .notice_info}
 
 ## Bit Operations
 Before going into any details, familiarize yourself with basic bit operations.
@@ -69,3 +69,15 @@ def isPowerof2(num):
 Run a paper test on this and amaze yourself!
 
 ## _i_-th power of 2
+Given the example above; if you need to find some power of 2, using library functions can cost more time. The easy way to do it using bit operations is:
+```python
+# i is the power of 2
+1 << i
+# that's it!!
+```
+
+## << >>
+Left and right shift can double and half the given number, respectively. As left shift moves all bits to the left, the cum value is doubled. Similarly, right shift divides the value by 2, python equivalent of `//` operator.
+Beware of the possible loss of data because of bit limits.
+{: .notice_warning}
+
