@@ -37,7 +37,7 @@ Read more: [Python Wiki](https://wiki.python.org/moin/BitwiseOperators){:target=
 
 > Note that the given operation is performed bitwise even if the given value is decimal or in any other system.
 
-## No. of Active Bits
+## No. of active bits
 Numbers in binary consist of only 1's and 0's, sometimes it's required to know how many 1's or active bits the number contains. Here's is how to do that:
 ```python
 def count( value ):
@@ -50,7 +50,7 @@ def count( value ):
 ```
 If you grab a pen and paper, work this out and you'll be surprised to see how remarkable it looks in operation.
 
-## Check Power of 2
+## Check power of 2
 Simple function that checks if the given number is a power of two.
 Using normal programming approach
 ```python
@@ -68,4 +68,4 @@ def isPowerof2(num):
 ```
 Run a paper test on this and amaze yourself!
 
-## 
+## _i_-th power of 2
