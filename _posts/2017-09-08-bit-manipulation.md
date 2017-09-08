@@ -58,15 +58,15 @@ def isPowerOf2(num):
 	if not num:
 		return False
 	while num % 2 is 0:
-		x /= 2
-	return x==1
+		num /= 2
+	return num==1
 ```
 Using bit manipulation
 ```python
 def isPowerof2(num):
-	return (x and not (x & (x - 1)))
+	return (num and not (num & (num - 1)))
 ```
-Run a paper test on this and amaze yourself!
+Run a paper test on this and see the difference yourself!
 
 ## _i_-th power of 2
 Given the example above; if you need to find some power of 2, using library functions can cost more time. The easy way to do it using bit operations is:
@@ -82,3 +82,25 @@ Left and right shift can double and half the given number, respectively. As left
 **Warning:** Beware of the possible loss of data because of bit limits.
 {: .notice_warning}
 
+## Check if a particular bit is set
+If you want to check if a particular _i_-th bit (from right) is set in a number `N`, AND it with a binary number with only 1 at that place followed by all zeros.
+```python
+def isSet(N, i):
+	if (N & ( 1 << i )):
+		return True
+	return False
+```
+This binary expression will always yield some arbitrary number if i-th bit is set, otherwise 0.
+
+## Set a particular bit
+In contrary to the last example, if you want to _set_ _i_-th bit (from right) in a number `N`, do this:
+```python
+def set(N, i):
+	return (N | (1 << i))
+```
+
+### Conclusion
+You can get the idea how small bitwise expressions can do great things. See the properties of binary numbers and come up with your own expressions (comment them and I'll add them in this post with credit). I haven't included any working example and I want you to do that yourself as explain step-by-step at this can be very hectic and I'm too laazZzzyyy to do that.
+
+See the results in [this IPython Notebook](https://github.com/rhasnainanwar/100_days_of_algorithms/blob/master/Algo_08_-_bit_manipulation.ipynb).
+<small>In case of any errors, open an issue in [100 Algorithms repo](https://github.com/rhasnainanwar/100_days_of_algorithms/issues/new) OR comment below.</small>
