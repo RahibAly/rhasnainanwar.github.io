@@ -2,7 +2,7 @@
 layout: post
 title: "Algo #9: The Sieve of Eratosthenes"
 excerpt: "Eratosthenes' Sieve is a popular ancient method for finding prime numbers within a number range."
-image: ../images/pay-2446670_1920.jpg
+image: ../images/pay-2446670_1280.jpg
 tags: 
   - 100 algorithms
   - python
@@ -25,18 +25,18 @@ This algorithm is based on the theory of prime numbers and factors. The algorith
 {% endcapture %}
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Source: [Wikipedia](https://en.wikipedia.org){:target="_blank"}</figcaption>
+  <figcaption>Source: Wikipedia</figcaption>
 </figure>
 
 ### Code
-The implementation of this method is very straightforward.
+The implementation of this method is very straightforward and simple.
 ```python
 def prime_generator( limit ):
-	# start off with all numbers in the bag
+# start off with all numbers in the bag
     ls = [True] * limit
     
     '''Consider point about maximum factor, mentioned in description'''
-    # 0 and 1 are not prime numbers
+    # prime numbers start from 2
     for i in range(2, int(math.sqrt(limit)) + 1): # iterate over all possible factors
         for j in range(i*2, limit, i): # and their multiples
             ls[j] = False # cross 'em out
