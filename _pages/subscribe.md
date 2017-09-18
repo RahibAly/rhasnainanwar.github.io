@@ -44,6 +44,13 @@ permalink: subscribe.html
 		width: inherit;
 		text-align: center;
 	}
+  .block-right .center {
+    display: block;
+  }
+  .mc_embed_signup_scroll{
+    margin: auto;
+    width: 80%;
+  }
 </style>
 <!-- Begin MailChimp Signup Form -->
 <div class="center">
